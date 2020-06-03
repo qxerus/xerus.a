@@ -1,73 +1,77 @@
 ﻿.ax_default {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:13px;
+  letter-spacing:normal;
   color:#333333;
+  vertical-align:none;
   text-align:center;
   line-height:normal;
-}
-.box_2 {
-}
-._图片_ {
-}
-.button {
-}
-.primary_button {
-  color:#FFFFFF;
-}
-.link_button {
-  color:#169BD5;
+  text-transform:none;
 }
 ._一级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:32px;
   text-align:left;
 }
 ._二级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:24px;
   text-align:left;
 }
 ._三级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:18px;
   text-align:left;
 }
 ._四级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:14px;
   text-align:left;
 }
 ._五级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   text-align:left;
 }
 ._六级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:bold;
   font-style:normal;
   font-size:10px;
   text-align:left;
 }
-.label {
-  font-size:14px;
-  text-align:left;
-}
 ._文本段落 {
   text-align:left;
 }
-.line {
+._表单提示 {
+  color:#999999;
+}
+._表单禁用 {
+}
+.box_1 {
+}
+.image {
+}
+.flow_shape {
+}
+._图片_ {
+}
+.icon {
+}
+.label {
+  font-size:14px;
+  text-align:left;
 }
 .text_field {
   color:#000000;
@@ -83,37 +87,11 @@
 .radio_button {
   text-align:left;
 }
-.tree_node {
-  text-align:left;
-}
-.table_cell {
-}
-._流程形状 {
-}
-.box_1 {
-}
-.box_3 {
-}
-.image {
-}
-._形状 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
-  font-weight:700;
-  font-style:normal;
-  color:#FF0066;
+.primary_button {
+  color:#FFFFFF;
 }
 .shape {
-}
-._图片 {
-}
-.icon {
-  font-family:'思源黑体 Regular', '思源黑体';
-  font-weight:400;
-  font-style:normal;
-  font-size:14px;
-}
-.shape1 {
-  font-family:'思源黑体 Regular', '思源黑体';
+  font-family:'思源黑体 ', '思源黑体', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -121,9 +99,34 @@
   text-align:center;
   line-height:normal;
 }
-.icon1 {
+.box_3 {
 }
-.flow_shape {
+.form_disabled {
 }
 .ellipse {
 }
+.box_2 {
+}
+.button {
+}
+.table_cell {
+}
+.shape1 {
+}
+.line {
+}
+.form_hint {
+  color:#999999;
+}
+.icon1 {
+  font-family:'思源黑体 ', '思源黑体', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+}
+.box_11 {
+}
+.link_button {
+  color:#169BD5;
+}
+textarea, select, input, button { outline: none; }
